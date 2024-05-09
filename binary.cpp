@@ -14,7 +14,7 @@ int Binary_search(int arr[],int n,int key)
   {
     if(arr[mid]==key)
     {
-      return mid;
+      return 1;
     }
 
     else
@@ -30,6 +30,8 @@ int Binary_search(int arr[],int n,int key)
       }
     }
   }
+
+  
 
   return 0;
 
@@ -51,7 +53,14 @@ int main()
   cin>>key;
 
   Binary_search(arr,n,key);
+  if( Binary_search(arr,n,key)!=0)
+  {
+    cout<<"element found"<<endl;
+  }
 
+  else{
+    cout<<"element not found"<<endl;
+  }
   return 0;
 }
 
