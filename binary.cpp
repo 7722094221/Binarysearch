@@ -31,7 +31,7 @@ int Binary_search(int arr[],int n,int key)
     }
   }
 
-  retuen 0;
+  return 0;
 
 }
 
