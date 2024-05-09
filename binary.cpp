@@ -8,6 +8,7 @@ int Binary_search(int arr[],int n,int key)
   mid=(s+e)/2;
   s=0;
   e=n-1;
+  
 
   while(s>=e)
   {
